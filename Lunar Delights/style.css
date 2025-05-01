@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Lora:ital,wght@1,400..700&family=Playwrite+IT+Moderna:wght@100..400&family=Ribeye&family=Ribeye+Marrow&family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+  font-family: "Delius Swash Caps", cursive;
+  margin: 10px;
+  background-color: rgba(250,246,240,255);
+  width: 100%;
+
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  padding: 10px 10px 10px 40px;
+}
+
+nav li a {
+  display: block;
+  padding: 12px;
+  margin: 5px;
+  text-decoration: none;
+  background: rgba(225,188,128,255);
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  font-family: "Delius Swash Caps", cursive;
+  
+}
+
+nav a:hover {
+  background: #fff;
+}
+
+
+
+.img {
+    width: 150px;
+    height: auto;
+}
+
+.bakery {
+  font-size: 40px;
+}
+
+
+
+body {
+  background-color: rgba(247,243,239,255);
+}
+
+main {
+  background-color: rgba(245,235,216,255);
+}
+
+.section1 {
+  grid-area: section1; 
+  margin: 50px;
+  padding:50px;
+  background-image: url(Pictures/rollingpin.webp);
+  background-repeat: no-repeat;
+  background-size: 1200px 800px;
+}
+
+.coffeeimg {
+  border-radius: 25%;
+}
+
+
+.section2 {
+  grid-area: section2;
+  margin: 50px;
+  padding:50px;
+}
+
+.mottoimg {
+  width: 500px;
+  height: 600px;
+  border-radius: 50%;
+}
+
+.section3 {
+  grid-area: section3;
+  margin: 50px;
+  padding: 20px;
+}
+
+.lemonimg {
+  border-radius: 25%;
+}
+
+
+.section4 {
+  grid-area: section4;
+  margin: 50px;
+  padding:50px;
+  font-family: "Lora", serif;
+  font-size: 30px;
+  background-color: rgba(208,222,199,255) ;
+  border-radius: 10%;
+}
+
+.main-container {
+  display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "section1 section1 section2 section2"
+      "section1 section1 section2 section2"
+      "section4 section4 section3 section3"
+      "section4 section4 section3 section3";
+}
+
+footer{
+  display: flex;
+}
+
+footer img {
+  width: 100px;
+  height: auto;
+
+}
+
+footer ul { 
+  text-decoration: none;
+  list-style-type: none;
+  text-align: right;
+  display: block;
+  font-family: "Lora", serif;
+ 
+  
+}
+
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(76,93,75);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea {
+  height: 200px ;
+}
+
+input[type=submit] {
+  background-color: 
+  rgba(208,222,199,255);
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: 
+  white;
+}
+
+form {
+  border-radius: 5px;
+  background-color: 
+  rgba(225,188,131,255);
+  padding: 20px;
+  font-family:  "Lora", serif;
+}
+
+
+
