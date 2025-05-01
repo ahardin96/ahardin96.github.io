@@ -1,0 +1,54 @@
+main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+main section {
+    flex: 1 1 33%;
+    text-align: center;
+    padding: 10px;
+}
+
+.pastries {
+    flex: 1 1 100%;
+    text-align: justify;
+}
+
+.drinks  {
+    flex: 1 1 100%;
+    text-align: justify;
+}
+
+main section img {
+    max-width: 100%;
+    border-radius: 15%;
+}
+
+
+h1, h2 {
+    font-family: "Delius Swash Caps", cursive;
+}
+
+h3 {
+    font-family: "Lora", serif;
+}
+
+p {
+    font-family: "Delius Swash Caps", cursive;
+}
+
+
+main section h3 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
